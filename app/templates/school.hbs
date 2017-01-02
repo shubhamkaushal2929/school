@@ -1,0 +1,7 @@
+<div>
+	<p><h2>List of Schools</h2></p>
+	{{#each model as |school|}}
+		{{school-cmp schoolUnit=school}}  
+	{{/each}}
+	<a href="#" {{action 'onShow'}}>Show More..</a>
+</div>
