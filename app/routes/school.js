@@ -10,7 +10,7 @@ export default Ember.Route.extend({
   },
   actions: {
   	onShow(){
-  		console.log('It works');
+  		console.log('It really works');
   	}
   }
 });
